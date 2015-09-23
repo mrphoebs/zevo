@@ -1,6 +1,5 @@
 #ifndef _VM_H_
 #define _VM_H_
-#endif
 
 #include<stdint.h>
 #include<instructions.h>
@@ -27,3 +26,5 @@ void execute(struct vm_instr instruc);
 void clear_registers();
 
 void print_registers();
+
+#endif
